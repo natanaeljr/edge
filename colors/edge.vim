@@ -581,17 +581,17 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi! link Include PreProc
     hi plug1 guifg=#d390e7 guibg=NONE guisp=NONE gui=bold cterm=bold
     hi plugNumber guifg=#a1bf78 guibg=NONE guisp=NONE gui=bold cterm=bold
-    hi GitGutterAdd guifg=#a1bf78 guibg=#262729 guisp=NONE gui=NONE cterm=NONE
-    hi GitGutterChange guifg=#73b3e7 guibg=#262729 guisp=NONE gui=NONE cterm=NONE
-    hi GitGutterDelete guifg=#ed6161 guibg=#262729 guisp=NONE gui=NONE cterm=NONE
-    hi GitGutterChangeDelete guifg=#dbb774 guibg=#262729 guisp=NONE gui=NONE cterm=NONE
-    hi SignifySignAdd guifg=#a1bf78 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
-    hi SignifySignChange guifg=#dbb774 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
-    hi SignifySignDelete guifg=#e77171 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
+    hi GitGutterAdd guifg=#a1bf78 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi GitGutterChange guifg=#73b3e7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi GitGutterDelete guifg=#ed6161 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi GitGutterChangeDelete guifg=#dbb774 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi SignifySignAdd guifg=#a1bf78 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi SignifySignChange guifg=#dbb774 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi SignifySignDelete guifg=#e77171 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi SyntasticError guifg=NONE guibg=NONE guisp=#e77171 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
     hi SyntasticWarning guifg=NONE guibg=NONE guisp=#dbb774 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
-    hi SyntasticErrorSign guifg=#e77171 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
-    hi SyntasticWarningSign guifg=#dbb774 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
+    hi SyntasticErrorSign guifg=#e77171 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi SyntasticWarningSign guifg=#dbb774 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Lf_hl_match guifg=#a1bf78 guibg=NONE guisp=NONE gui=bold cterm=bold
     hi Lf_hl_match0 guifg=#a1bf78 guibg=NONE guisp=NONE gui=bold cterm=bold
     hi Lf_hl_match1 guifg=#5ebaa5 guibg=NONE guisp=NONE gui=bold cterm=bold
@@ -602,9 +602,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi ALEError guifg=NONE guibg=NONE guisp=#e77171 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
     hi ALEWarning guifg=NONE guibg=NONE guisp=#dbb774 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
     hi ALEInfo guifg=NONE guibg=NONE guisp=#73b3e7 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
-    hi ALEErrorSign guifg=#e77171 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
-    hi ALEWarningSign guifg=#dbb774 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
-    hi ALEInfoSign guifg=#73b3e7 guibg=#2d2f33 guisp=NONE gui=NONE cterm=NONE
+    hi ALEErrorSign guifg=#e77171 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi ALEWarningSign guifg=#dbb774 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    hi ALEInfoSign guifg=#73b3e7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi CocHighlightText guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
     hi CocHoverRange guifg=NONE guibg=NONE guisp=NONE gui=bold,underline ctermfg=NONE ctermbg=NONE cterm=bold,underline
     hi multiple_cursors_cursor guifg=NONE guibg=NONE guisp=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse
@@ -784,10 +784,10 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link Include PreProc
   hi plug1 guifg=#b870ce guibg=NONE guisp=NONE gui=bold cterm=bold
   hi plugNumber guifg=#7c9f4b guibg=NONE guisp=NONE gui=bold cterm=bold
-  hi GitGutterAdd guifg=#7c9f4b guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
-  hi GitGutterChange guifg=#d69822 guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
-  hi GitGutterDelete guifg=#db7070 guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
-  hi GitGutterChangeDelete guifg=#b870ce guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
+  hi GitGutterAdd guifg=#7c9f4b guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi GitGutterChange guifg=#d69822 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi GitGutterDelete guifg=#db7070 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi GitGutterChangeDelete guifg=#b870ce guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi SignifySignAdd guifg=#7c9f4b guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
   hi SignifySignChange guifg=#d69822 guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
   hi SignifySignDelete guifg=#db7070 guibg=#eef1f4 guisp=NONE gui=NONE cterm=NONE
