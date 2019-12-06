@@ -572,7 +572,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi Statement guifg=#d390e7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Tag guifg=#d390e7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Delimiter guifg=#b7bec9 guibg=NONE guisp=NONE gui=NONE cterm=NONE
-    hi Comment guifg=#88909f guibg=NONE guisp=NONE gui=italic cterm=italic
+    hi Comment guifg=#88909f guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi SpecialComment guifg=#88909f guibg=NONE guisp=NONE gui=italic cterm=italic
     hi Ignore guifg=#88909f guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
@@ -775,8 +775,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#b870ce guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Tag guifg=#b870ce guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#5e646f guibg=NONE guisp=NONE gui=NONE cterm=NONE
-  hi Comment guifg=#949ba5 guibg=NONE guisp=NONE gui=italic cterm=italic
-  hi SpecialComment guifg=#949ba5 guibg=NONE guisp=NONE gui=italic cterm=italic
+  hi Comment guifg=#949ba5 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi SpecialComment guifg=#949ba5 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#949ba5 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
   hi! link SpecialChar Special
@@ -962,8 +962,8 @@ if s:t_Co >= 256
     hi Statement ctermfg=176 ctermbg=NONE cterm=NONE
     hi Tag ctermfg=176 ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=250 ctermbg=NONE cterm=NONE
-    hi Comment ctermfg=246 ctermbg=NONE cterm=italic
-    hi SpecialComment ctermfg=246 ctermbg=NONE cterm=italic
+    hi Comment ctermfg=246 ctermbg=NONE cterm=NONE
+    hi SpecialComment ctermfg=246 ctermbg=NONE cterm=NONE
     hi Ignore ctermfg=246 ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
     hi! link SpecialChar Special
@@ -1144,8 +1144,8 @@ if s:t_Co >= 256
   hi Statement ctermfg=134 ctermbg=NONE cterm=NONE
   hi Tag ctermfg=134 ctermbg=NONE cterm=NONE
   hi Delimiter ctermfg=241 ctermbg=NONE cterm=NONE
-  hi Comment ctermfg=247 ctermbg=NONE cterm=italic
-  hi SpecialComment ctermfg=247 ctermbg=NONE cterm=italic
+  hi Comment ctermfg=247 ctermbg=NONE cterm=NONE
+  hi SpecialComment ctermfg=247 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=247 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi! link SpecialChar Special
@@ -1320,8 +1320,8 @@ if s:t_Co >= 8
     hi Statement ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Tag ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=White ctermbg=NONE cterm=NONE
-    hi Comment ctermfg=Grey ctermbg=NONE cterm=italic
-    hi SpecialComment ctermfg=Grey ctermbg=NONE cterm=italic
+    hi Comment ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi SpecialComment ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Ignore ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
     hi! link SpecialChar Special
@@ -1502,8 +1502,8 @@ if s:t_Co >= 8
   hi Statement ctermfg=Magenta ctermbg=NONE cterm=NONE
   hi Tag ctermfg=Magenta ctermbg=NONE cterm=NONE
   hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
-  hi Comment ctermfg=Grey ctermbg=NONE cterm=italic
-  hi SpecialComment ctermfg=Grey ctermbg=NONE cterm=italic
+  hi Comment ctermfg=Grey ctermbg=NONE cterm=NONE
+  hi SpecialComment ctermfg=Grey ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=Grey ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi! link SpecialChar Special
